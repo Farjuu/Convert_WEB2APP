@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Web_to_App</string>
+    <string name="btn_text">go</string>
+    <string name="hint_text">www.google.com</string>
 </resources>
