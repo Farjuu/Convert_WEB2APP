@@ -3,15 +3,17 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@drawable/bckgrndimg"
     tools:context=".MainActivity">
 
     <EditText
-
         android:id="@+id/url"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-
-        android:textColor="@color/black"
+        android:textColor="@color/design_default_color_secondary"
+        android:textStyle="italic"
+        android:textSize="19sp"
         android:inputType="textUri"
         android:hint="@string/hint_text"
         android:textColorHint="@color/design_default_color_secondary"
@@ -21,6 +23,10 @@
         android:layout_below="@+id/url"
         android:id="@+id/button"
         android:text="@string/btn_text"
+
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:background="@null"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         />

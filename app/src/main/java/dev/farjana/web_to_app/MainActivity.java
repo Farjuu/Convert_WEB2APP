@@ -6,7 +6,6 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.widget.Button;
 import android.widget.EditText;
-import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -25,8 +24,7 @@ public class MainActivity extends AppCompatActivity {
         
         urlStringValue = urlEditText.getText().toString();
 
-        Toast.makeText(this, "hello", Toast.LENGTH_SHORT).show();
-         searchButton.setOnClickListener(view -> {
+          searchButton.setOnClickListener(view -> {
              intent = new Intent(getApplicationContext(),WebViewScreen.class);
              intent.putExtra("urlText",urlEditText.getText().toString());
              startActivity(intent);
