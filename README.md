@@ -1,4 +1,4 @@
-# Quicky Sites 
+# Quick Site 
 
 Web_to_app...
 
